@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AquaFlow</string>
+    <string name="app_tagline">Drink Water. Stay Refreshed.</string>
+    <string name="notification_channel_name">Hydration Reminders</string>
+    <string name="notification_channel_desc">Daily water intake prompts and hydration schedule alerts</string>
+    <string name="notification_title_reminder">💧 Time to Drink Water!</string>
+    <string name="notification_msg_reminder">Take a short break and enjoy a glass of water.</string>
+    <string name="notification_action_log_250">Log 250 ml</string>
+</resources>

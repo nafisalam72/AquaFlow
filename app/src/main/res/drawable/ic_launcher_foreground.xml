@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Water Droplet Base Silhouette -->
+    <path
+        android:pathData="M54,23 C54,23 33,48 33,63 C33,74.598 42.402,84 54,84 C65.598,84 75,74.598 75,63 C75,48 54,23 54,23 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="23"
+                android:endX="54"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#E0F7FA" android:offset="0.0" />
+                <item android:color="#26C6DA" android:offset="0.5" />
+                <item android:color="#0097A7" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Wave Flow in Droplet -->
+    <path
+        android:pathData="M33.5,67 C38,64 43,62 48,65 C53,68 57,70 63,67 C68,64 72,65 74.5,67.5 C74.8,66 75,64.5 75,63 C75,48 54,23 54,23 C54,23 33,48 33,63 C33,64.4 33.2,65.7 33.5,67 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="25"
+                android:endX="54"
+                android:endY="68"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#B2EBF2" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Droplet Shine / Gloss Highlight -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M43,45 C41,49 40,54 40,59 C40,61 41.5,61 41.5,59 C41.5,54 42.8,49.5 45,46 C45.5,45 44,43.5 43,45 Z" />
+
+    <!-- Small Sparkle Bubble -->
+    <path
+        android:fillColor="#B3FFFFFF"
+        android:pathData="M62,44 C63.1,44 64,43.1 64,42 C64,40.9 63.1,40 62,40 C60.9,40 60,40.9 60,42 C60,43.1 60.9,44 62,44 Z" />
+</vector>

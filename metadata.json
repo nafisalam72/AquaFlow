@@ -1,0 +1,6 @@
+{
+  "name": "AquaFlow",
+  "description": "Premium water reminder and hydration tracker with animated water level, flexible scheduling, and reliable notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
